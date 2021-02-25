@@ -1,0 +1,9 @@
+<launch>
+
+  <!--pantilt control-->
+  <node name="pantilt_control" pkg="pantilt_control" type="pantilt_control" output="screen"/>
+
+  <!--azure kinect driver-->
+  <include file="$(find robotic_img_seg_archit)/launch/azure_kinect.launch"/>
+
+</launch>
