@@ -2,6 +2,7 @@
 人が正解を与えることなく物体の位置とその輪郭を検出し，区別することを行うRobotic Image Segmentation Architectureのリポジトリ．
 本手法は，カメラとそれを駆動させるアクチュエータ(パン・チルト軸)で構成されるロボットを用いて，Image Segmentationを行う．
 ロボットは深層強化学習によって最適化された行動をし，その画像差分から物体の位置と輪郭を検出する．
+
 以下に，各パッケージの説明とその使い方を示す．
 
 ## robotic_img_seg_archit
@@ -32,10 +33,10 @@ Mean IoUを計算するためのプログラムが入っている.
 
 ### How to use
 ```
-# プログラムのある階層まで移動
+# プログラムのある階層まで移動する．
 $ cd calculation_mean_IoU/src
 
-# Mean IoUを計算する
+# Mean IoUを計算する．
 $ python3 calculation_mean_IoU.py
 ```
 
